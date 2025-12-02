@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "my-first-app",
-    "slug": "my-first-app",
+    "name": "Learn_app",
+    "slug": "Learn_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon_whoo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {

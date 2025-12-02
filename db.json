@@ -1,0 +1,285 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "nombre": "Admin",
+            "pass": "Admin123",
+            "email": "admin@empresa.com",
+            "rol": "Administrador",
+            "fecha_registro": "2023-01-15",
+            "activo": true,
+            "departamento": "TI"
+        },
+        {
+            "id": 2,
+            "nombre": "User",
+            "pass": "User123",
+            "email": "user@empresa.com",
+            "rol": "Usuario",
+            "fecha_registro": "2023-03-22",
+            "activo": true,
+            "departamento": "Ventas"
+        },
+        {
+            "id": 3,
+            "nombre": "Alfonso",
+            "pass": "A",
+            "email": "A",
+            "rol": "Analista",
+            "fecha_registro": "2023-05-10",
+            "activo": false,
+            "departamento": "Analítica"
+        }
+    ],
+    "cursos": [
+        {
+            "id": 1,
+            "title": "React Native",
+            "description": "Curso de React Native para desarrollo de aplicaciones móviles.",
+            "hora": "09:00 - 11:00",
+            "instructor": "Juan Pérez"
+        },
+        {
+            "id": 2,
+            "title": "JavaScript Avanzado",
+            "description": "Profundiza en conceptos avanzados de JavaScript.",
+            "hora": "11:30 - 13:30",
+            "instructor": "María Gómez"
+        },
+        {
+            "id": 3,
+            "title": "Node.js",
+            "description": "Aprende a construir aplicaciones backend con Node.js.",
+            "hora": "14:00 - 16:00",
+            "instructor": "Carlos López"
+        }
+    ],
+    "students": [
+        {
+            "id": 1,
+            "name": "Ana Martínez",
+            "age": 22
+        },
+        {
+            "id": 2,
+            "name": "Luis Fernández",
+            "age": 25
+        },
+        {
+            "id": 3,
+            "name": "Sofía Ramírez",
+            "age": 20
+        },
+        {
+            "id": 4,
+            "name": "Miguel Torres",
+            "age": 23
+        },
+        {
+            "id": 5,
+            "name": "Elena Sánchez",
+            "age": 21
+        },
+        {
+            "id": 6,
+            "name": "Carlos Mendoza",
+            "age": 24
+        },
+        {
+            "id": 7,
+            "name": "Isabel García",
+            "age": 19
+        },
+        {
+            "id": 8,
+            "name": "Javier Ruiz",
+            "age": 26
+        },
+        {
+            "id": 9,
+            "name": "Patricia López",
+            "age": 22
+        },
+        {
+            "id": 10,
+            "name": "Daniel Castro",
+            "age": 27
+        },
+        {
+            "id": 11,
+            "name": "Marina Ortiz",
+            "age": 20
+        },
+        {
+            "id": 12,
+            "name": "Ricardo Silva",
+            "age": 25
+        },
+        {
+            "id": 13,
+            "name": "Gabriela Morales",
+            "age": 23
+        },
+        {
+            "id": 14,
+            "name": "Andrés Herrera",
+            "age": 28
+        },
+        {
+            "id": 15,
+            "name": "Camila Rojas",
+            "age": 21
+        },
+        {
+            "id": 16,
+            "name": "Fernando Vargas",
+            "age": 24
+        },
+        {
+            "id": 17,
+            "name": "Lucía Medina",
+            "age": 20
+        }
+    ],
+    "matriculas": [
+        {
+            "id": 1,
+            "studentId": 1,
+            "courseId": 1,
+            "date": "2024-01-15"
+        },
+        {
+            "id": 2,
+            "studentId": 2,
+            "courseId": 2,
+            "date": "2024-02-20"
+        },
+        {
+            "id": 3,
+            "studentId": 3,
+            "courseId": 3,
+            "date": "2024-03-10"
+        },
+        {
+            "id": 4,
+            "studentId": 4,
+            "courseId": 1,
+            "date": "2024-01-18"
+        },
+        {
+            "id": 5,
+            "studentId": 5,
+            "courseId": 2,
+            "date": "2024-02-22"
+        },
+        {
+            "id": 6,
+            "studentId": 6,
+            "courseId": 3,
+            "date": "2024-03-05"
+        },
+        {
+            "id": 7,
+            "studentId": 7,
+            "courseId": 1,
+            "date": "2024-01-20"
+        },
+        {
+            "id": 8,
+            "studentId": 8,
+            "courseId": 2,
+            "date": "2024-02-25"
+        },
+        {
+            "id": 9,
+            "studentId": 9,
+            "courseId": 3,
+            "date": "2024-03-08"
+        },
+        {
+            "id": 10,
+            "studentId": 10,
+            "courseId": 1,
+            "date": "2024-01-22"
+        },
+        {
+            "id": 11,
+            "studentId": 11,
+            "courseId": 2,
+            "date": "2024-02-28"
+        },
+        {
+            "id": 12,
+            "studentId": 12,
+            "courseId": 3,
+            "date": "2024-03-12"
+        },
+        {
+            "id": 13,
+            "studentId": 13,
+            "courseId": 1,
+            "date": "2024-01-25"
+        },
+        {
+            "id": 14,
+            "studentId": 14,
+            "courseId": 2,
+            "date": "2024-03-01"
+        },
+        {
+            "id": 15,
+            "studentId": 15,
+            "courseId": 3,
+            "date": "2024-03-15"
+        },
+        {
+            "id": 16,
+            "studentId": 16,
+            "courseId": 1,
+            "date": "2024-01-28"
+        },
+        {
+            "id": 17,
+            "studentId": 17,
+            "courseId": 2,
+            "date": "2024-03-03"
+        }
+    ],
+    "tasks": [
+        {
+            "id": 1,
+            "nombre": "Tarea de Matemáticas",
+            "descripcion": "Resolver problemas de álgebra lineal",
+            "matricula": "1",
+            "tiempo": "2 horas"
+        },
+        {
+            "id": 2,
+            "nombre": "Proyecto de Historia",
+            "descripcion": "Investigación sobre la Revolución Industrial",
+            "matricula": "4",
+            "tiempo": "5 horas"
+        },
+        {
+            "id": 3,
+            "nombre": "Práctica de Programación",
+            "descripcion": "Desarrollar una aplicación web simple",
+            "matricula": "9",
+            "tiempo": "3 horas"
+        },
+        {
+            "id": 4,
+            "nombre": "Reporte de Ciencias",
+            "descripcion": "Análisis de experimento de laboratorio",
+            "matricula": "3",
+            "tiempo": "4 horas"
+        },
+        {
+            "id": 5,
+            "nombre": "Presentación de Inglés",
+            "descripcion": "Preparar exposición sobre cultura británica",
+            "matricula": "11",
+            "tiempo": "2 horas"
+        }
+    ]
+}
